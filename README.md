@@ -83,4 +83,4 @@ export JAVA_HOME=<你的 JDK 17 路径>
 
 ## 📄 License
 
-Apache-2.0（待定稿，占位）
+自定义开源许可协议（见 [LICENSE](LICENSE)）
