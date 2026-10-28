@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#0b2b33"/>
+      <stop offset="1" stop-color="#063b42"/>
+    </linearGradient>
+    <linearGradient id="arc1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4dd0e1"/>
+      <stop offset="1" stop-color="#00bcd4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <circle cx="1000" cy="80" r="130" fill="#00bcd4" opacity="0.05"/>
+  <circle cx="1060" cy="120" r="80" fill="#4dd0e1" opacity="0.05"/>
+  <!-- 风线 1 -->
+  <path d="M120,150 C160,96 260,62 360,82 C410,93 450,118 450,150 C450,182 418,196 382,190 C345,184 325,162 356,138" fill="none" stroke="url(#arc1)" stroke-width="16" stroke-linecap="round"/>
+  <!-- 风线 2 -->
+  <path d="M96,210 C140,170 250,150 340,168 C370,173 392,196 378,218 C364,240 322,240 306,216" fill="none" stroke="#4dd0e1" stroke-width="12" stroke-linecap="round" opacity="0.9"/>
+  <!-- 风线 3 -->
+  <path d="M150,262 C200,232 300,218 350,236 C368,243 380,258 370,270" fill="none" stroke="#80deea" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  <!-- 扳手 -->
+  <path d="M240,296 L282,338 C290,346 288,362 278,372 C268,382 252,380 244,372 L202,330 C194,322 196,306 206,296 C216,286 232,288 240,296 Z" fill="#ffffff" opacity="0.85"/>
+  <text x="480" y="185" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="bold" fill="#ffffff">清风工具箱</text>
+  <text x="482" y="228" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#80deea" letter-spacing="4">QINGFENG KIT</text>
+  <text x="482" y="285" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#b8d8e0">工具 · 音乐 · 阅读 · 天气 · 桌面组件</text>
+</svg>
