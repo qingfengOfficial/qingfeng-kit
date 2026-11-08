@@ -35,13 +35,14 @@
 
 | 版本 | 说明 | 链接 |
 |------|------|------|
-| **v2.1**（最新 Release） | 音乐深度优化 + 通知栏升级 + 性能优化 | [GitHub Release](https://github.com/qingfengOfficial/qingfeng-kit/releases/tag/v2.1) |
+| **v2.2**（最新 Release） | 局域网快传重整（mTLS+断点续传V1）+ 音乐链路整改 | [GitHub Release](https://github.com/qingfengOfficial/qingfeng-kit/releases/tag/v2.2) |
+| v2.1 | 音乐深度优化 + 通知栏升级 + 性能优化 | [GitHub Release](https://github.com/qingfengOfficial/qingfeng-kit/releases/tag/v2.1) |
 | v2.0 | 多音源并发 + 高品质下载内嵌封面歌词 | [GitHub Release](https://github.com/qingfengOfficial/qingfeng-kit/releases/tag/v2.0) |
 | v1.0 | 初版：工具集 + 原子组件 | [GitHub Release](https://github.com/qingfengOfficial/qingfeng-kit/releases/tag/v1.0) |
 
-- **直接下载 APK**：`qingfeng-kit-v2.1-release.apk`（约 111 MB）
-  https://github.com/qingfengOfficial/qingfeng-kit/releases/download/v2.1/qingfeng-kit-v2.1-release.apk
-- **源码包**：Release 附带（已剔除 `keystore` / `local.properties` 等敏感文件）
+- **直接下载 APK**：`qingfeng-kit-v2.2-release.apk`（约 155 MB）
+  https://github.com/qingfengOfficial/qingfeng-kit/releases/download/v2.2/qingfeng-kit-v2.2-release.apk
+- **源码包**：按版发布（已剔除 `keystore` / `local.properties` 等敏感文件；v2.2 未附带源码包）
 - 安装后进入 App，`设置 → 检查更新` 可手动校验版本
 
 > 📌 APK 体积较大（含 ffmpeg-kit / PDFBox / Legado 引擎等完整能力），请耐心等待下载。
@@ -67,10 +68,10 @@ export JAVA_HOME=<你的 JDK 17 路径>
 
 ## 📜 版本历史
 
+- **v2.2**（2026-11-08）：局域网快传重整（mTLS 独立入口 + 连接限流 + 传输提速 + 断点续传 V1）、音乐链路整改（Trace ID/安全续播/来源调度）、播放队列确认、视频客户端、书源增强
 - **v2.1**（2026-10-06）：音乐模块深度优化（智能省流/播放加速/自动换源/下载队列/歌词持久化）、通知栏升级（封面+线控）、性能优化、动画增强、启动更新检查
 - **v2.0**（2026-10-05）：多音源并发取链、高品质下载（内嵌封面歌词）、发现页搜索、红外 NEC 真实帧、坏码库自动升级
 - **v1.0**（2026-09-12）：初版交付，工具集 + 桌面原子组件 + 更新检查链路
-- **开发线 v2.2**：书源增强（Legado 全源码移植 + QuickJS 引擎）、书源导入修复、视频客户端、120Hz 高刷动效
 
 ---
 
